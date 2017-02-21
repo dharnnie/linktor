@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>sign up / sign in</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"  href="homepage.css">
+<link rel="stylesheet" type="text/css" href="font-awesome-4.5.0/css/font-awesome.css">
+<link rel="stylesheet" href="bootstrap-3.2.0-dist\css\bootstrap.min.css">
+<link rel="stylesheet" href="bootstrap-3.2.0-dist\css\bootstrap-theme.min.css">
+      <!-- Ionicons Fonts Css -->
+        <link rel="stylesheet" href="css/ionicons.min.css">
+        <!-- animate css -->
+        <link rel="stylesheet" href="css/animate.css">
+        <!-- Hero area slider css-->
+        <link rel="stylesheet" href="css/slider.css">
+        <!-- owl craousel css -->
+        <link rel="stylesheet" href="css/owl.carousel.css">
+        <link rel="stylesheet" href="css/owl.theme.css">
+        <link rel="stylesheet" href="css/jquery.fancybox.css">
+        <!-- template main css file -->
+        <link rel="stylesheet" href="css/main.css">
+        <!-- responsive css -->
+        <link rel="stylesheet" href="css/responsive.css">
+    <!-- modernizr js -->
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <!-- jquery -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <!-- owl carouserl js -->
+        <script src="js/owl.carousel.min.js"></script>
+        <!-- bootstrap js -->
+        <script src="js/bootstrap.min.js"></script>
+        <!-- wow js -->
+        <script src="js/wow.min.js"></script>
+        <!-- slider js -->
+        <script src="js/slider.js"></script>
+        <script src="js/jquery.fancybox.js"></script>
+        <!-- template main js -->
+        <script src="js/main.js"></script>        
+</head>
+<body>
+
+  <header id="top-bar" class="navbar-fixed-top animated-header">
+            <div class="container">
+                <div class="navbar-header">
+                    <!-- responsive nav button -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    </button>
+                    <!-- /responsive nav button -->
+                    
+                    <!-- logo -->
+                    <div class="navbar-brand">
+                        <a href="homepage.html" >
+                            LinkTor
+                        </a>
+                    </div>
+                    <!-- /logo -->
+                </div>
+                <!-- main menu -->
+                <nav class="collapse navbar-collapse navbar-right" role="navigation">
+                    <div class="main-menu">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li>
+                                <a href="homepage.html" >Home</a>
+                            </li>
+
+                            <li class="dropdown">
+                                <a href="register.html" class="dropdown-toggle active" data-toggle="dropdown">Register <span class="caret"></span></a>
+                                <div class="dropdown-menu">
+                                    <ul>
+                                        <li><a href="404.html">Sign up</a></li>
+                                        <li role="separator" class="divider"></li>
+                                        <li><a href="login.html"><i class="fa fa-user"></i> log in</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="dropdown">
+                                <a href="about.html" class="dropdown-toggle" data-toggle="dropdown">About <span class="caret"></span></a>
+                                <div class="dropdown-menu">
+                                    <ul>
+                                        <li><a href="about.html">How it works</a></li>
+                                        <li><a href="about.html">FAQ</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li><a href="contact.html">Contact us</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <!-- /main nav -->
+            </div>
+        </header>
+<!--end of navigation bar-->
+
+   
+<!--student category form-->
+<div class="container-fluid">
+   <div class="row">
+          <div class="col-lg-12">
+                <h1 class="page-header">Sign Up
+                    <small>.</small>
+                </h1>
+                <!-- <ol class="breadcrumb">
+                    <li><a href="homepage.html">Home</a>
+                    </li>
+                    <li class="active">Register</li>
+                    <li>Student</li>
+                </ol> -->
+          </div>
+    </div>
+</div>
+
+
+<div class="container">
+        <form class="form-horizontal" role="sr-only" action="" method="">
+          <fieldset class="form-group">
+              <legend>Sign Up now and manage your own dashboard</legend>
+              <div class="form-group row">
+                  <label class="col-md-3 col-form-label" for="firstName" >First Name</label>
+                  <div class="col-md-9">
+                    <input type="text" id="firstName" class="form-control" required>
+                  </div>
+              </div>
+              <div class="form-group row">
+                  <label class="col-md-3 col-form-label" for="surnName" >Surname</label>
+                    <div class="col-md-9">
+                      <input type="text" id="surnName" class="form-control" required>
+                    </div>
+              </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-md-3 col-form-label" for="example-date-input" >Date of Birth</label>
+                  <div class="col-md-9">
+                        <input class="form-control" type="date"  id="example-date-input">
+                  </div>
+            </div>
+            <div class="form-group row">
+                <label for="phoneNo" class="col-form-label col-md-3">Phone Number</label>
+                  <div class="col-md-9">
+                     <input class="form-control" type="number" id="phoneNo" required >
+                  </div>
+            </div>
+            <div class="form-group row">
+                <label for="email" class="col-form-label col-md-3">email</label>
+                  <div class="col-md-9">
+                     <input class="form-control" type="email" id="email" required>
+                  </div>
+            </div>
+          </fieldset>
+         
+          <fieldset class="form-group">
+              <legend>Educational Information</legend>
+          <div class="form-group row">
+               <label for="universities" class="col-md-3">Institution</label> 
+               <div class="col-md-9">
+                  <select class="form-control " id="universities">
+                    <option>University of lagos</option>
+                    <option>University of Ibadan</option>
+                    <option>University of Ilorin</option>
+                    <option>Lagos state University</option>
+                 </select> 
+               </div> 
+           </div>
+           <div class="form-group row">
+               <label for="category" class="col-md-3">Category</label> 
+               <div class="col-md-9">
+                  <select class="form-control " id="category">
+                    <option>UTME</option>
+                    <option>Foundation/Diploma</option>
+                    <option>ICE</option>
+                    <option>DLI</option>
+                 </select> 
+               </div> 
+            </div>
+            <div class="form-group row">
+                <label for="Faculty" class="col-form-label col-md-3">Faculty</label>
+                  <div class="col-md-9">
+                     <input class="form-control" type="text" id="Faculty" required>
+                  </div>
+            </div>
+            <div class="form-group row">
+                <label for="Deparment" class="col-form-label col-md-3">Department</label>
+                  <div class="col-md-9">
+                     <input class="form-control" type="text" id="Deparment" required>
+                  </div>
+            </div>
+            <div class="form-group row">
+                <label for="Matric no" class="col-form-label col-md-3">Matric no</label>
+                  <div class="col-md-9">
+                     <input class="form-control" type="number" id="Matric no" required>
+                  </div>
+            </div>
+            <div class="form-group row">
+                <label for="Level" class="col-form-label col-md-3">Level</label>
+                  <div class="col-md-9">
+                     <input class="form-control" type="number" id="Level" required>
+                  </div>
+            </div>
+            <div class="form-group row">
+                <label for="course-of-study" class="col-form-label col-md-3">Duration of course of study</label>
+                  <div class="col-md-9">
+                     <input class="form-control" type="number" id="course-of-study" required>
+                  </div>
+            </div>
+          </fieldset>
+           <button type="submit" class="btn btn-success col-md-offset-4 col-md-4 ">Submit</button>
+        </form>
+       </div>
+</div>
+
+<br>
+<br>
+<br>
+    <!-- Footer -->
+    <div class="container-fluid" style="background-color:lightblue">
+           <footer class="col-lg-12">
+            <div class="row">
+                <div>
+                    <p>Copyright &copy; linktor.com 2016</p>
+                </div>
+            </div>
+          </footer>
+    </div>
+<!-- modernizr js -->
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <!-- jquery -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <!-- owl carouserl js -->
+        <script src="js/owl.carousel.min.js"></script>
+        <!-- bootstrap js -->
+        <script src="js/bootstrap.min.js"></script>
+        <!-- wow js -->
+        <script src="js/wow.min.js"></script>
+        <!-- slider js -->
+        <script src="js/slider.js"></script>
+        <script src="js/jquery.fancybox.js"></script>
+        <!-- template main js -->
+        <script src="js/main.js"></script>      
+<script src="bootstrap-3.2.0-dist\js\jquery-1.11.0.min.js"></script>
+<script src="bootstrap-3.2.0-dist\js\bootstrap.min.js"></script>
+</body>
+</html>

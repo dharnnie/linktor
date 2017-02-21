@@ -1,0 +1,160 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700);
+@import url(http://fonts.googleapis.com/css?family=Glegoo);
+body {
+  font-family: 'Roboto', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+p {
+  font-family: 'Roboto', sans-serif;
+  line-height: 22px;
+  font-size: 16px;
+  font-weight: 300;
+}
+.sub-section{
+ padding-top: 95px;
+ height:100%;
+ background-color: white;
+}
+
+.sub-section p i , .sub-section1 p i {
+	font-size:250px;
+}
+.sub-section h2 , .sub-section1 h2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.sub-section1{
+ padding-top: 95px;
+ height:100%;
+ background-color:white;
+}
+
+.btn-edit{
+	margin-top: 75px;
+	margin-bottom: 55px;
+	border:none;
+	background-color:rgba(102, 0, 0,1);
+  border-radius:25px;
+}
+
+.sub-section ol li , .sub-section1 ol li {
+  line-height: 35px;
+}
+.sub-section img , .sub-section1 img {
+  max-width:100%;
+}
+.btn-edit a {
+ text-decoration: none;
+
+}
+.foot-contents{
+  padding-top:40px;
+}
+.contain h5{
+  margin-top:40px;
+  text-align:center;
+}
+.sect-1{
+  background: url('../images/library.jpg') no-repeat 50%;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 230px 0;
+  color: #fff;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+.div-1{
+  
+  height:30em;
+  background-color:rgb(255, 255, 255,);
+  text-align: center;
+  color: white;
+}
+
+
+.block{
+  text-align: center;
+  height: 300px;
+  background-color: lightblue;
+  color:white;
+  padding-top: 20px;
+}
+.block button{
+ 
+  margin-top: 30px;
+}
+.inner-block{
+   height:50px;
+    background-color: yellow;
+    width: 50px;
+}
+
+ #p1,#p2,#p3,#p4,#p5{ 
+       color:rgba(0, 128, 128,0.6);
+       font-family: monospace;
+ }
+
+ p {
+color: rgba(120, 120, 100,1.0)
+
+}
+
+
+.contain{
+	height: 50%;
+	background-color: grey;
+}
+
+.div-community{
+  margin-top: 50px;
+  text-align:center;
+  height:50%;
+  background-color: rgb(153, 255, 204);
+}
+.div-community-1{
+  padding:50px;
+  text-align:center;
+  height:100%;
+  background-color: rgb(102, 153, 153);
+}
+
+.div-community p{
+  margin-top: 50px;
+  line-height:2em;
+  text-align:center;
+ 
+}
+.div-community button{
+  margin-bottom: 50px;
+}
+.div-community-1 i{
+  font-size: 150px;
+}
+
+.tutorial-container{
+  margin-top: 50px;
+
+  height:50%;
+  background-color: rgb(153, 255, 204);
+}
+.tutorial-container h1{
+ text-align:center;
+ color: white;
+}
+.tutorial-container button{
+ margin-top:50px ;
+ margin-bottom: 30px;
+ border-right: 3px teal;
+}
+.tab-upload{
+  margin-top:80px;
+}
+
